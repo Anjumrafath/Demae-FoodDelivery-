@@ -1,9 +1,7 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
-class CategoryWidget extends StatelessWidget {
-  const CategoryWidget({super.key});
+class LdWidget extends StatelessWidget {
+  const LdWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,24 +16,25 @@ class CategoryWidget extends StatelessWidget {
               child: Column(
                 children: [
                   Container(
+                    height: 150,
+                    width: 150,
                     padding: EdgeInsets.all(8),
                     decoration: BoxDecoration(
                       color: Colors.grey.shade100,
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: Image.asset(
-                      "assets/icons/indian1.jpg",
-                      width: 60,
-                      height: 60,
+                      "assets/picky/meals1.jpg",
+                      width: 50,
+                      height: 50,
                     ),
                   ),
-                  Text(
-                    "Indian",
-                    style: TextStyle(
-                        fontSize: 10,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black),
-                  ),
+                  Text("Restaurnt123 Meals",
+                      style: TextStyle(
+                          fontSize: 10,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black)),
+                  Text("\Rs.250", style: TextStyle(color: Colors.red)),
                 ],
               ),
             ),
@@ -44,24 +43,25 @@ class CategoryWidget extends StatelessWidget {
               child: Column(
                 children: [
                   Container(
+                    height: 150,
+                    width: 150,
                     padding: EdgeInsets.all(8),
                     decoration: BoxDecoration(
                       color: Colors.grey.shade100,
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: Image.asset(
-                      "assets/icons/italian.jpg",
-                      width: 60,
-                      height: 60,
+                      "assets/picky/meals2.jpg",
+                      width: 80,
+                      height: 80,
                     ),
                   ),
-                  Text(
-                    "Italian",
-                    style: TextStyle(
-                        fontSize: 10,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black),
-                  ),
+                  Text("Restaurntbbb Meals",
+                      style: TextStyle(
+                          fontSize: 10,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black)),
+                  Text("\Rs.250", style: TextStyle(color: Colors.red)),
                 ],
               ),
             ),
@@ -70,24 +70,25 @@ class CategoryWidget extends StatelessWidget {
               child: Column(
                 children: [
                   Container(
+                    height: 150,
+                    width: 150,
                     padding: EdgeInsets.all(8),
                     decoration: BoxDecoration(
                       color: Colors.grey.shade100,
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: Image.asset(
-                      "assets/icons/chinese1.jpg",
-                      width: 60,
-                      height: 60,
+                      "assets/picky/meals3.jpg",
+                      width: 80,
+                      height: 80,
                     ),
                   ),
-                  Text(
-                    "Chinese",
-                    style: TextStyle(
-                        fontSize: 10,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black),
-                  ),
+                  Text("Restaurntaaa Meals",
+                      style: TextStyle(
+                          fontSize: 10,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black)),
+                  Text("\Rs.550", style: TextStyle(color: Colors.red)),
                 ],
               ),
             ),
@@ -96,24 +97,25 @@ class CategoryWidget extends StatelessWidget {
               child: Column(
                 children: [
                   Container(
+                    height: 150,
+                    width: 150,
                     padding: EdgeInsets.all(8),
                     decoration: BoxDecoration(
                       color: Colors.grey.shade100,
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: Image.asset(
-                      "assets/icons/japanese1.jpg",
-                      width: 60,
-                      height: 60,
+                      "assets/picky/meals4.jpg",
+                      width: 80,
+                      height: 80,
                     ),
                   ),
-                  Text(
-                    "Japanese",
-                    style: TextStyle(
-                        fontSize: 10,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black),
-                  ),
+                  Text("Restaurnt123 Meals",
+                      style: TextStyle(
+                          fontSize: 10,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black)),
+                  Text("\Rs.450", style: TextStyle(color: Colors.red)),
                 ],
               ),
             ),
@@ -122,24 +124,25 @@ class CategoryWidget extends StatelessWidget {
               child: Column(
                 children: [
                   Container(
+                    height: 150,
+                    width: 150,
                     padding: EdgeInsets.all(8),
                     decoration: BoxDecoration(
                       color: Colors.grey.shade100,
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: Image.asset(
-                      "assets/icons/barbeque.jpg",
-                      width: 60,
-                      height: 60,
+                      "assets/picky/meals5.jpg",
+                      width: 80,
+                      height: 80,
                     ),
                   ),
-                  Text(
-                    "Barbeque",
-                    style: TextStyle(
-                        fontSize: 10,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black),
-                  ),
+                  Text("Restaurntdef Meals",
+                      style: TextStyle(
+                          fontSize: 10,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black)),
+                  Text("\Rs.550", style: TextStyle(color: Colors.red)),
                 ],
               ),
             ),
@@ -148,55 +151,25 @@ class CategoryWidget extends StatelessWidget {
               child: Column(
                 children: [
                   Container(
+                    height: 150,
+                    width: 150,
                     padding: EdgeInsets.all(8),
                     decoration: BoxDecoration(
                       color: Colors.grey.shade100,
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: Image.asset(
-                      "assets/icons/drinks.jpg",
-                      width: 60,
-                      height: 60,
+                      "assets/picky/meals6.jpg",
+                      width: 80,
+                      height: 80,
                     ),
                   ),
-                  Text(
-                    "Drinks",
-                    style: TextStyle(
-                        fontSize: 10,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black),
-                  ),
-                ],
-              ),
-            ),
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: 10),
-              child: Column(
-                children: [
-                  InkWell(
-                    onTap: () {
-                      Navigator.pushNamed(context, "ItemPage");
-                    },
-                    child: Container(
-                      padding: EdgeInsets.all(8),
-                      decoration: BoxDecoration(
-                        color: Colors.grey.shade100,
-                        borderRadius: BorderRadius.circular(8),
-                      ),
-                      child: Image.asset(
-                        "assets/icons/desserts.jpg",
-                        width: 60,
-                        height: 60,
-                      ),
-                    ),
-                  ),
-                  Text(
-                    "Desserts",
-                    style: TextStyle(
-                        fontSize: 10,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black),
-                  ),
+                  Text("Restaurntabc Meals",
+                      style: TextStyle(
+                          fontSize: 10,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black)),
+                  Text("\Rs.650", style: TextStyle(color: Colors.red)),
                 ],
               ),
             ),
@@ -205,24 +178,25 @@ class CategoryWidget extends StatelessWidget {
               child: Column(
                 children: [
                   Container(
+                    height: 150,
+                    width: 150,
                     padding: EdgeInsets.all(8),
                     decoration: BoxDecoration(
                       color: Colors.grey.shade100,
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: Image.asset(
-                      "assets/icons/fastfood.jpg",
-                      width: 60,
-                      height: 60,
+                      "assets/picky/meals7.jpg",
+                      width: 80,
+                      height: 80,
                     ),
                   ),
-                  Text(
-                    "FastFood",
-                    style: TextStyle(
-                        fontSize: 10,
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black),
-                  ),
+                  Text("Restaurnt123 Meals",
+                      style: TextStyle(
+                          fontSize: 10,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black)),
+                  Text("\Rs.550", style: TextStyle(color: Colors.red)),
                 ],
               ),
             ),

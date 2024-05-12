@@ -14,13 +14,15 @@ class BreakFastWidget extends StatelessWidget {
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 5),
               child: Container(
+                height: 100,
+                width: 100,
                 padding: EdgeInsets.all(8),
                 decoration: BoxDecoration(
                   color: Colors.grey.shade100,
                   borderRadius: BorderRadius.circular(8),
                 ),
                 child: Image.asset(
-                  "assets/icons/indian1.jpg",
+                  "assets/breakfast/idli.jpg",
                   width: 60,
                   height: 60,
                 ),
@@ -29,13 +31,54 @@ class BreakFastWidget extends StatelessWidget {
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 10),
               child: Container(
+                height: 100,
+                width: 100,
                 padding: EdgeInsets.all(8),
                 decoration: BoxDecoration(
                   color: Colors.grey.shade100,
                   borderRadius: BorderRadius.circular(8),
                 ),
                 child: Image.asset(
-                  "assets/icons/italian.jpg",
+                  "assets/breakfast/khichdi.jpg",
+                  width: 70,
+                  height: 70,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 10),
+              child: InkWell(
+                onTap: () {
+                  Navigator.pushNamed(context, "ItemsPage");
+                },
+                child: Container(
+                  height: 100,
+                  width: 100,
+                  padding: EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                    color: Colors.grey.shade100,
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: Image.asset(
+                    "assets/breakfast/dosa.jpg",
+                    width: 70,
+                    height: 70,
+                  ),
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 10),
+              child: Container(
+                height: 100,
+                width: 100,
+                padding: EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  color: Colors.grey.shade100,
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: Image.asset(
+                  "assets/breakfast/upma.jpg",
                   width: 60,
                   height: 60,
                 ),
@@ -44,13 +87,15 @@ class BreakFastWidget extends StatelessWidget {
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 10),
               child: Container(
+                height: 100,
+                width: 100,
                 padding: EdgeInsets.all(8),
                 decoration: BoxDecoration(
                   color: Colors.grey.shade100,
                   borderRadius: BorderRadius.circular(8),
                 ),
                 child: Image.asset(
-                  "assets/icons/chinese1.jpg",
+                  "assets/breakfast/sandwich.jpg",
                   width: 60,
                   height: 60,
                 ),
@@ -59,13 +104,15 @@ class BreakFastWidget extends StatelessWidget {
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 10),
               child: Container(
+                height: 100,
+                width: 100,
                 padding: EdgeInsets.all(8),
                 decoration: BoxDecoration(
                   color: Colors.grey.shade100,
                   borderRadius: BorderRadius.circular(8),
                 ),
                 child: Image.asset(
-                  "assets/icons/japanese1.jpg",
+                  "assets/breakfast/vada.jpg",
                   width: 60,
                   height: 60,
                 ),
@@ -74,13 +121,15 @@ class BreakFastWidget extends StatelessWidget {
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 10),
               child: Container(
+                height: 100,
+                width: 100,
                 padding: EdgeInsets.all(8),
                 decoration: BoxDecoration(
                   color: Colors.grey.shade100,
                   borderRadius: BorderRadius.circular(8),
                 ),
                 child: Image.asset(
-                  "assets/icons/barbeque.jpg",
+                  "assets/breakfast/paratha.jpg",
                   width: 60,
                   height: 60,
                 ),
@@ -89,13 +138,15 @@ class BreakFastWidget extends StatelessWidget {
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 10),
               child: Container(
+                height: 100,
+                width: 100,
                 padding: EdgeInsets.all(8),
                 decoration: BoxDecoration(
                   color: Colors.grey.shade100,
                   borderRadius: BorderRadius.circular(8),
                 ),
                 child: Image.asset(
-                  "assets/icons/drinks.jpg",
+                  "assets/breakfast/mixedveg.jpg",
                   width: 60,
                   height: 60,
                 ),
@@ -104,13 +155,15 @@ class BreakFastWidget extends StatelessWidget {
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 10),
               child: Container(
+                height: 100,
+                width: 100,
                 padding: EdgeInsets.all(8),
                 decoration: BoxDecoration(
                   color: Colors.grey.shade100,
                   borderRadius: BorderRadius.circular(8),
                 ),
                 child: Image.asset(
-                  "assets/icons/desserts.jpg",
+                  "assets/breakfast/colorrice.jpg",
                   width: 60,
                   height: 60,
                 ),
@@ -119,13 +172,32 @@ class BreakFastWidget extends StatelessWidget {
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 10),
               child: Container(
+                height: 100,
+                width: 100,
                 padding: EdgeInsets.all(8),
                 decoration: BoxDecoration(
                   color: Colors.grey.shade100,
                   borderRadius: BorderRadius.circular(8),
                 ),
                 child: Image.asset(
-                  "assets/icons/fastfood.jpg",
+                  "assets/breakfast/poori.jpg",
+                  width: 60,
+                  height: 60,
+                ),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: 10),
+              child: Container(
+                height: 100,
+                width: 100,
+                padding: EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  color: Colors.grey.shade100,
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: Image.asset(
+                  "assets/breakfast/muttonkheema.jpg",
                   width: 60,
                   height: 60,
                 ),

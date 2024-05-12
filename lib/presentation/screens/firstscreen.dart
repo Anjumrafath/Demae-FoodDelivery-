@@ -28,8 +28,18 @@ class FirstScreen extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
+                  Image.asset("assets/images/fooddelivery.jpg"),
                   Text(
                     "Demae",
+                    style: TextStyle(
+                      fontSize: 60,
+                      color: Colors.white,
+                      fontStyle: FontStyle.italic,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  Text(
+                    "TakeAway",
                     style: TextStyle(
                       fontSize: 30,
                       color: Colors.white,
@@ -37,7 +47,7 @@ class FirstScreen extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  SizedBox(height: 20, width: 20),
+                  SizedBox(height: 300, width: 50),
                   ElevatedButton(
                     onPressed: () {
                       Navigator.of(context).push(MaterialPageRoute(

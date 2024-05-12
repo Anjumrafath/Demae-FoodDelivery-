@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:fooddelivery/presentation/screens/cartscreen.dart';
 import 'package:fooddelivery/presentation/screens/foodscreen.dart';
 import 'package:fooddelivery/presentation/screens/homescreen.dart';
-import 'package:fooddelivery/presentation/screens/orderscreen.dart';
+import 'package:fooddelivery/presentation/screens/searchscreen.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -58,7 +59,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 icon: Icons.home,
                 text: 'Home',
               ),
-              GButton(icon: Icons.food_bank, text: 'Category'),
+              GButton(icon: Icons.food_bank, text: 'FoodSection'),
+              GButton(icon: Icons.search, text: 'Search'),
               GButton(icon: Icons.shopping_cart, text: 'WishList'),
             ],
           ),
@@ -70,7 +72,8 @@ class _MyHomePageState extends State<MyHomePage> {
         children: [
           HomeScreen(),
           FoodScreen(),
-          OrderScreen(),
+          SearchScreen(),
+          CartScreen(),
         ],
       ),
     );
